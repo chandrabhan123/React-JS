@@ -4,6 +4,10 @@ import { createRoot } from "react-dom/client";
 // import App from './App.jsx'
 // import Vehicle from "./Vehicle.jsx";
 import Practice, { Mycar, Myfavcar } from "./Practices";
+
+import Destructing from "./components/Destructuring";
+import ReactStateExample from "./components/ReactStateExample.jsx";
+
 // import { Netflixseries, AnotherComponent } from "./components/Netflixseries.jsx"; // named export
 // import  Netflixseries from "./components/Netflixseries.jsx"; // named export
 // function Car(props) {
@@ -59,5 +63,8 @@ root.render(
     {/* <Netflixseries /> */}
     {/* <AnotherComponent /> */}
     <Myfavcar color="red" carName="Mustang" cars={{ year: 2021 }} />
+
+    <Destructing />
+    <ReactStateExample />
   </>
 );
